@@ -22,6 +22,7 @@ export const getSignUp =async(req,res)=>{
             return res.status(400).json({error : "Please enter Valid ReGnum Format "})
         }
 
+        // EMAIL
         const emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         const emailCheck = emailReg.test(Email);
         if(!emailCheck){

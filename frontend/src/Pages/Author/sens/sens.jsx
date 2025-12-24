@@ -1,1 +1,1 @@
-export const baseUrl = "http://localhost:6500"
+export const baseUrl = "https://campus-thoughts-2.onrender.com"
