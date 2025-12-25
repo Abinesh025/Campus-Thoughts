@@ -11,11 +11,9 @@ import toast from "react-hot-toast";
 
 export const Sidebar = () => {
 
-	// const {data:authuser} = useQuery({queryKey:["authuser"]});	
+	const {data:authuser} = useQuery({queryKey:["authuser"]});	
 
-	const { data: authuser, isLoading, error } = useQuery({
-  queryKey: ["authuser"],queryFn:Sidebar
-});
+	// const { data: authuser, isLoading, error } = useQuery({queryKey: ["authuser"],queryFn:Sidebar});
 
 	const queryClient = useQueryClient();
 

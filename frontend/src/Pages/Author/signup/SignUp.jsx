@@ -71,7 +71,7 @@ const SignUpPage = () => {
 				<form className='lg:w-2/3  mx-auto md:mx-20 flex gap-4 flex-col' onSubmit={handleSubmit}>
 					<XSvg className='w-34 lg:hidden fill-black' />
 
-					<h1 className='text-4xl font-extrabold text-white'>Share Your Thoughts Today!</h1>
+					<h1 className='text-4xl font-extrabold text-purple lg:text-white'>Share Your Thoughts Today!</h1>
 					<label className='input input-bordered rounded flex items-center gap-2'>
 						<MdOutlineMail />
 						<input
