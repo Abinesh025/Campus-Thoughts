@@ -69,7 +69,7 @@ const SignUpPage = () => {
 			</div>
 			<div className='flex-1 flex flex-col justify-center items-center'>
 				<form className='lg:w-2/3  mx-auto md:mx-20 flex gap-4 flex-col' onSubmit={handleSubmit}>
-					<XSvg className='w-34 lg:hidden fill-white' />
+					<XSvg className='w-34 lg:hidden fill-black' />
 
 					<h1 className='text-4xl font-extrabold text-white'>Share Your Thoughts Today!</h1>
 					<label className='input input-bordered rounded flex items-center gap-2'>
@@ -154,7 +154,7 @@ const SignUpPage = () => {
 				<div className='flex flex-col lg:w-2/3 gap-2 mt-4'>
 					<p className='text-white text-lg'>Already have an account?</p>
 					<Link to='/login'>
-						<button className='btn rounded-full btn-primary text-white btn-outline w-full'>Sign in</button>
+						<button className='btn rounded-full btn-primary text-purple lg:text-white btn-outline w-full'>Sign in</button>
 					</Link>
 				</div>
 			</div>

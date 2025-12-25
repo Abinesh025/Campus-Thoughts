@@ -49,8 +49,8 @@ export const getSignUp =async(req,res)=>{
 
        await users.save();
        return  res.status(200).json(users);
-    }catch(err){
-            console.log(`The error is ${err}`);
+    }catch(error){
+            console.log(`The error is ${error.message}`);
             return res.status(500).json({error:"Internal Server Error"});
     }
 };
