@@ -3,13 +3,14 @@ import { hostname } from "os";
 
 const getDataBase = async()=>{
         try{
-            await mongoose.connect(process.env.MONGODB_URL ).then(()=>{
-                console.log(`The MongoDb is runs on` + process.env.PORT)
-            })
+            await mongoose.connect(process.env.MONGODB_URL )
+                console.log("The MongoDb connected")
+            
         }
         catch(error)
         {
-            console.log(error.message)
+            console.log(`The error in mongoDB Database ${error}`)
+            process.exit(1);
         }
 }
 
