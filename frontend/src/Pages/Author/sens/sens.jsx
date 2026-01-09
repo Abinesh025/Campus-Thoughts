@@ -1,1 +1,0 @@
-export const baseUrl = "https://campus-thoughts-4.onrender.com"
